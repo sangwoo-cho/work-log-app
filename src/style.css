@@ -1,11 +1,11 @@
 :root {
     --primary-color: #646cff;
     --primary-hover: #535bf2;
-    --bg-color: #1a1a1a;
-    --card-bg: #242424;
-    --text-color: rgba(255, 255, 255, 0.87);
-    --text-muted: rgba(255, 255, 255, 0.6);
-    --border-color: #333;
+    --bg-color: #ffffff;
+    --card-bg: #f5f5f5;
+    --text-color: #213547;
+    --text-muted: #666;
+    --border-color: #e0e0e0;
 
     --status-completed: #10b981;
     --status-progress: #f59e0b;
@@ -27,7 +27,7 @@ body {
     min-height: 100vh;
 }
 
-#app {
+#root {
     width: 100%;
     max-width: 800px;
     padding: 2rem;
