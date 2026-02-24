@@ -1,1 +1,71 @@
-/* content managed by Antigravity */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #fdfcfb 0%, #f3f4f7 100%);
+    background-attachment: fixed;
+    color: #2d3748;
+    /* Large base font size for 75-inch TV */
+    font-size: 20px;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.soft-ui-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03), 0 4px 12px rgba(0, 0, 0, 0.02);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soft-ui-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06), 0 8px 20px rgba(0, 0, 0, 0.03);
+}
+
+select,
+input[type="text"],
+input[type="date"] {
+    font-size: 1rem;
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px solid #eef2f7;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+    border-color: #cbd5e0;
+    box-shadow: 0 0 0 4px rgba(203, 213, 224, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    color: #1a202c;
+    letter-spacing: -0.02em;
+}
+
+/* Custom scrollbar for premium look */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e2e8f0;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cbd5e0;
+}
